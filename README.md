@@ -7,5 +7,5 @@ Main page
 ![image](https://github.com/mihai-ciorobitca/Controller/assets/146944097/67e81f7b-a625-4581-bd32-46f247152c0f)
 Main page running
 
-
-
+![image](https://github.com/mihai-ciorobitca/Controller/assets/146944097/dc27b521-5462-4e9d-8a6e-ec76d3f5e584)
+Statistics page
