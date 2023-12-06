@@ -229,7 +229,7 @@ class Canvas {
     drawDashLines(this.canvasInfo);
     drawIslands(this.canvasInfo, this.cadransValues);
     drawCircles(this.canvasInfo, this.circlesValues);
-    drawPath(this.canvasInfo);
+    //drawPath(this.canvasInfo);
   }
 
   move() {

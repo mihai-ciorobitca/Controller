@@ -79,7 +79,7 @@ class Car {
         angle: 1.5 * Math.PI,
       },
       3: {
-        centerX: canvas.centerY - (this.width + this.maxSize) / 2,
+        centerX: canvas.centerX - (this.width + this.maxSize) / 2,
         centerY: canvas.HEIGHT / 2 + canvas.LANE / 2,
         angle: 0,
       },
@@ -188,7 +188,7 @@ class Car {
           const endTime = new Date();
           let waitingTimeList = localStorage.getItem("waitingTimeList");
           const lengthWaiting = waitingTimeList.split(',').length;
-          if (lengthWaiting == 900) {
+          if (lengthWaiting + 1 == 5000) {
             location.reload();
           }
           if (waitingTimeList == "") {
